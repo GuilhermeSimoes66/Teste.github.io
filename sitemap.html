@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!--
+    O atributo charset neste elemento <meta> informa ao navegador como deve interpretar os caracteres no documento. A menos que você tenha um caso de uso muito especial, você deve usar o UTF-8 aqui.
+    -->
+	<meta charset="utf-8">
+	<title>Noruega</title>
+
+    <!-- 
+    Cascading Style Sheets, ou CSS, é um idioma usado para descrever como o navegador da Web deve apresentar elementos HTML e seu conteúdo. Você pode usar o CSS para controlar os aspectos visuais da sua página da web, incluindo a posição do elemento, cores de fundo e imagens, bordas, fontes e muitos mais aspectos de design.
+    -->
+	<link rel="stylesheet" href="css/style.css">
+    
+    <!--
+    O elemento <meta> é usado para definir metadados, como uma descrição sobre a página, palavras-chave ou o autor da página.
+    -->
+	<meta name="description" content="Historia, curiosidades, cidades, vikings, atualmente">
+	<meta name="keywords" content="Noruega,Vikings,Oslo,Paisagens">
+	<meta name="author" content="Guilherme Simoes">
+</head>
+<body>
+	<!-- Page Container -->
+	<div id="container">
+		<!-- Header 
+        <-- 
+        Quase todas as páginas da Web têm uma seção de cabeçalho de alguma descrição. Esta seção geralmente contém informações como um logotipo da empresa, slogan e links de navegação do site. O HTML5 apresenta um novo elemento <header> que você pode usar para definir esta seção do layout da sua página. Você pode usar o elemento <header> mais de uma vez em uma página, como você verá logo quando você aprender sobre o elemento <article>.
+        -->
+		<header>
+			<!-- Logo -->
+			<div id="logo">
+				<h1>Noruega</h1>
+			</div>
+			<!-- Navigation -->
+            <!-- 
+            Todos os sites precisam de links de navegação para permitir que os usuários se movam facilmente entre diferentes páginas.
+            O HTML5 apresenta o novo elemento <nav> que permite que você indique aos programas de computador exatamente onde esses links de navegação podem ser encontrados na página. Isso pode ser útil para usuários que dependem do software de leitura de tela, por exemplo, porque o software pode identificar com maior precisão a navegação na página. Essa capacidade se traduz no fato de o usuário poder navegar mais rápido no seu site.
+            -->
+			<nav>
+				<ul>
+					<li>
+                        <!-- 
+                        Os hiperlinks em HTML são criados usando o elemento <a>. Além de vincular a outras páginas na web, você também pode usar o elemento <a> para vincular a partes da página atual.
+                        -->
+						<a href="index.html" title="Voltar para pagina inicial" class="active">
+							Home
+						</a>
+					</li>
+					<li>
+						<a href="sobre.html" title="Saiba mais sobre a noruega,cidades,religão,cultura">
+							Historia
+						</a>
+					</li>
+					<li>
+						<a href="Atual.html" title="Curiosidades">
+							Curiosidades
+						</a>
+					</li>
+					<li>
+						<a href="Cidades.html" title="Cidades, paisagens, turismo...">
+							Cidades
+						</a>
+					</li>
+					<li>
+						<a href="Viking.html" title="Era viking para você descobrir ainda mais sobre a cultura do pais">
+							Era Viking!
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Main Content -->
+		<div>
+			<!-- Page Text -->
+			<section id="page-text">
+				<h1>Sitemap</h1>
+				<ul id="sitemap">
+					<li>
+						<a href="index.html" title="Joe's Pizza Co.">
+							Home
+						</a>
+					</li>
+					<li>
+						<a href="so.html" title="Saiba mais sobre Joe's Pizza Co.">
+							Sobre
+						</a>
+					</li>
+					<li>
+						<a href="news.html" title="Últimas notícias sobre Joe's Pizza Co.">
+							News
+						</a>
+					</li>
+					<li>
+						<a href="menu.html" title="O menu do restaurante Joe's Pizza Co.">
+							Menu
+						</a>
+					</li>
+					<li>
+						<a href="lo.html" title="Locais do restaurante Joe's Pizza Co.">
+							Localização
+						</a>
+					</li>
+					<li>
+						<a href="sitemap.html" title="Links para todas as páginas deste site">
+							Sitemap
+						</a>
+					</li>
+				</ul>
+			</section>
+		</div>
+
+		<!-- Footer -->
+		<footer>
+			<small>&copy; 2018 All Rights Reserved</small> - <a href="sitemap.html" title="Links to all the pages on this website">Sitemap</a>
+		</footer>
+	</div>
+</body>
+</html>
